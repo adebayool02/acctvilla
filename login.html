@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+</head>
+<body class="bg-[#F3F1F6]">
+    <nav class="relative container bg-white-500 m-auto p-6">
+      <div class="flex items-center justify-between">
+        <!--logo-->
+        <div class="p-2">
+          <h1>LOGO</h1>
+          <!-- <img src="" alt=""> -->
+        </div>
+        <!--navlink-->
+        <div class="hidden md:flex space-x-16">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+        </div>
+        <!--btn-->
+        <a
+          href="#"
+          class="hidden p-3 pt-2 px-7 font-bold rounded-full bg-purple-400 md:block"
+          >Contact Us</a
+        >
+
+        <!--hamburger icon-->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md text-black-500"
+        >
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+        </div>
+      </div>
+    </nav>
+
+
+        <section class="flex p-10 mb-15 pb-20 bg-[#F3F1F6] justify-center h-full w-full">
+            <div class=" bg-white w-[90%] p-10 pt-20 pb-20 m-auto rounded shadow">
+            
+            <div class="w-full   dark:border m-auto md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+                
+                <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+                    <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+                        Sign in to your account
+                    </h1>
+
+
+
+                    <form class="space-y-4 md:space-y-6" action="#">
+
+                        <div>
+                            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Username or E-mail</label>
+                            <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900
+                             sm:text-sm rounded-lg 
+                            focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 
+                            dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 
+                            dark:focus:border-blue-500" placeholder="name@company.com" required="">
+                        </div>
+
+
+
+
+                        <div>
+                            <label for="password" class=" mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+                            <input type="password" name="password" id="password" placeholder="••••••••" class="bg-gray-50 
+                            border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600
+                             focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 
+                             dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="">
+                        </div>
+
+
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-start">
+                                <div class="flex items-center h-5">
+                                  <input id="remember" aria-describedby="remember" type="checkbox" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800" required="">
+                                </div>
+                                <div class="ml-3 text-sm">
+                                  <label for="remember" class="text-gray-500 dark:text-gray-300">Remember me</label>
+                                </div>
+                            </div>
+                            <a href="#" class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Forgot password?</a>
+                        </div>
+                        <button type="submit" class=" text-white bg-purple-400 hover:bg-purple-400
+                         focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg items-center
+                         text-sm px-20 py-4 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Sign in</button>
+                        <p class="text-sm font-light text-gray-500 dark:text-gray-400">
+                            Don’t have an account yet? <a href="#" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Sign up</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+            </div>
+ 
+
+        </section>
+       
+          
+</body>
+</html>
