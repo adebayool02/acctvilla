@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"/>
+</head>
+<body class="bg-[#F3F1F6] overflow-hidden box-border">
+
+        <nav class="relative px-4 py-4 flex justify-between items-center bg-white">
+            <a class="text-3xl font-bold leading-none" href="#">
+                logo
+            </a>
+            <div class="lg:hidden">
+                <button class="navbar-burger flex items-center text-blue-600 p-3">
+                    <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Mobile menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                    </svg>
+                </button>
+            </div>
+            <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-10">
+                <li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Home</a></li>
+                <li><a class="text-sm text-blue-600 font-bold" href="#">About</a></li>
+
+                <div class=" w-full items-center justify-center bg-gray-200 ">
+
+                    <div class="group relative cursor-pointer">
+                      
+                        <div class="flex items-center justify-between space-x-5 bg-white lg:px-9">
+                          <a class="menu-hover text-base  text-black " onClick="">
+                               Accounts
+                          </a>
+                          <span>
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                  stroke="currentColor" class="h-6 w-6">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                              </svg>
+                          </span>
+                      </div>
+                          <!-- Dropdown menu -->
+                          
+                          <div
+                                          class="invisible absolute z-50 flex w-full flex-col bg-gray-100 py-1 px-5 text-gray-800 
+                                          shadow-xl group-hover:visible ">
+                              
+                                          <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                              FACEBOOK
+                                          </a>
+                              
+                                          <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                              FACEBOOK DATING
+                                          </a>
+                              
+                                          <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                              INSTAGRAM
+                                          </a>
+                              
+                                          <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                              LINKEDIN
+                                          </a>
+                              
+                                          <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                              MAILS
+                                          </a>
+                              
+                                          <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                              OTHER COUNTRIES FACEBOOK
+                                          </a>
+                              
+                                          <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                              OTHERS
+                                          </a>
+
+                                          <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                            PREMIUM VPN
+                                        </a>
+
+                                        <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                         REDDIT
+                                      </a>
+
+                                      <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                        RESELLER DEAL
+                                    </a>
+                              
+                                    <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                      STREAMING
+                                  </a>
+                                  <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                   SNAPCHAT
+                                </a>
+                                <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                  TIKTOK
+                              </a>
+                              <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                TWITTER
+                            </a>
+                            <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                              UX TEXTING
+                          </a>
+                          <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                            RENT NUMBERS
+                        </a>
+                                      </div>
+                  
+                        </div>
+                  </div>
+                  <li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Orders</a></li>
+                <li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Logout</a></li>
+
+                <li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Contact</a></li>
+
+            </ul>
+            <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200" href="#">Logout</a>
+        </nav>
+        <div class="navbar-menu relative z-50 hidden">
+            <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+            <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+                <div class="flex items-center mb-8">
+                    <a class="mr-auto text-3xl font-bold leading-none" href="#">
+                       logo
+                    </a>
+                    <button class="navbar-close">
+                        <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div>
+                    <ul>
+                        <li class="mb-1">
+                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Home</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">About</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Orders</a>
+                        </li>
+                        <li class="mb-1">
+                        </li>
+                        <li class="mb-1">
+                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Contact</a>
+                        </li>
+
+                        <li class="mb-1">
+                            <div class=" w-full items-center justify-center bg-gray-200 ">
+
+                    <div class="group relative cursor-pointer">
+                      
+                        <div class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 
+                        hover:text-blue-600 rounded flex items-center justify-between bg-white ">
+                          <a class="menu-hover" onClick="">
+                               Accounts
+                          </a>
+                          <span>
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                  stroke="currentColor" class="h-6 w-6">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                              </svg>
+                          </span>
+                      </div>
+                          <!-- Dropdown menu -->
+                          
+                          <div
+                                          class="invisible absolute z-50 flex w-full flex-col bg-gray-100 py-1 px-5 text-gray-800 
+                                          shadow-xl group-hover:visible ">
+                              
+                                          <a class="my-2 block  py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                              FACEBOOK
+                                          </a>
+                              
+                                          <a class="my-2 block py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                              FACEBOOK DATING
+                                          </a>
+                              
+                                          <a class="my-2 block  py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                              INSTAGRAM
+                                          </a>
+                              
+                                          <a class="my-2 block  py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                              LINKEDIN
+                                          </a>
+                              
+                                          <a class="my-2 block py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                              MAILS
+                                          </a>
+                              
+                                          <a class="my-2 block py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                              OTHER COUNTRIES FACEBOOK
+                                          </a>
+                              
+                                          <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                              OTHERS
+                                          </a>
+
+                                          <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                            PREMIUM VPN
+                                        </a>
+
+                                        <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                         REDDIT
+                                      </a>
+
+                                      <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                        RESELLER DEAL
+                                    </a>
+                              
+                                    <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                      STREAMING
+                                  </a>
+                                  <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                   SNAPCHAT
+                                </a>
+                                <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                  TIKTOK
+                              </a>
+                              <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                TWITTER
+                            </a>
+                            <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                              UX TEXTING
+                          </a>
+                          <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                            RENT NUMBERS
+                        </a>
+                                      </div>
+                  
+                        </div> 
+                  </div>
+                        </li>
+                        <li class="mb-1">
+                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Contact</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mt-auto">
+                    <div class="pt-6">
+                        <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center 
+                        text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" href="#">Logout</a>
+                    </div>
+                    <p class="my-4 text-xs text-center text-gray-400">
+                        <span>Copyright © 2024</span>
+                    </p>
+                </div>
+            </nav>
+        </div>
+  
+    
+    <script src="js/sci.js"></script>
+</body>
+</html>
