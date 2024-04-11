@@ -1,3 +1,13 @@
+function openAccount(target) {
+    const dropdown = document.querySelector(target);
+    if (dropdown.classList.contains('hidden')) {
+        dropdown.classList.remove('hidden'); // Show the dropdown if it's hidden
+    } else {
+        dropdown.classList.add('hidden');    // Hide the dropdown if it's visible
+    }
+}
+
+
 // Burger menus
 document.addEventListener('DOMContentLoaded', function() {
     // open
